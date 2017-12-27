@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadeScrollbars="false"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      >
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Map Activity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/zipButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start ZipActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/disposableButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start DisposableActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/takeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start TakeActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/intervalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start IntervalActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/singleObserverButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start SingleObserverActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/completableObserverButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start CompletableObserverActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/flowableButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start FlowableActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/reduceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start ReduceActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/bufferButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start BufferActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/filterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start FilterActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/skipButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start SkipActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/replayButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start ReplayActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/concatButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="startConcatActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/mergeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start MergeActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/deferButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start DeferActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/replaySubjectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start ReplaySubjectActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/publishSubjectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start PublishSubjectActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/behaviourSubjectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start BehaviorSubjectActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/asyncSubjectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start AsyncSubjectActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start SearchActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/debounceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start DebounceActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/delayButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start DelayActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/distinctButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start DistinctActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/lastOperatorButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start LastOperatorActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/scanButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start ScanActivity"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/throttleFirstButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start ThrottleFirstActivity"
+        android:textColor="@android:color/black"
+        />
+
+  </LinearLayout>
+</ScrollView>

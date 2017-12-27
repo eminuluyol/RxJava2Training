@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.taurus.rxjava2training">
+
+  <application
+      android:allowBackup="true"
+      android:icon="@mipmap/ic_launcher"
+      android:label="@string/app_name"
+      android:roundIcon="@mipmap/ic_launcher_round"
+      android:supportsRtl="true"
+      android:theme="@style/AppTheme">
+    <activity android:name=".ui.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".ui.SearchActivity" />
+    <activity android:name=".ui.DisposableExampleActivity" />
+    <activity android:name=".ui.FlowableExampleActivity" />
+    <activity android:name=".ui.SingleObserverExampleActivity" />
+    <activity android:name=".ui.CompletableObserverExampleActivity" />
+    <activity android:name=".ui.MapExampleActivity" />
+    <activity android:name=".ui.ZipExampleActivity" />
+    <activity android:name=".ui.BufferExampleActivity" />
+    <activity android:name=".ui.TakeExampleActivity" />
+    <activity android:name=".ui.ReduceExampleActivity" />
+    <activity android:name=".ui.FilterExampleActivity" />
+    <activity android:name=".ui.SkipExampleActivity" />
+    <activity android:name=".ui.ReplayExampleActivity" />
+    <activity android:name=".ui.ConcatExampleActivity" />
+    <activity android:name=".ui.MergeExampleActivity" />
+    <activity android:name=".ui.DeferExampleActivity" />
+    <activity android:name=".ui.IntervalExampleActivity" />
+    <activity android:name=".ui.PublishSubjectExampleActivity" />
+    <activity android:name=".ui.ReplaySubjectExampleActivity" />
+    <activity android:name=".ui.BehaviorSubjectExampleActivity" />
+    <activity android:name=".ui.AsyncSubjectExampleActivity" />
+    <activity android:name=".ui.DebounceActivity" />
+    <activity android:name=".ui.DelayActivity" />
+    <activity android:name=".ui.DistinctActivity" />
+    <activity android:name=".ui.LastOperatorActivity" />
+    <activity android:name=".ui.ScanActivity" />
+    <activity android:name=".ui.ThrottleFirstActivity"></activity>
+  </application>
+
+</manifest>
